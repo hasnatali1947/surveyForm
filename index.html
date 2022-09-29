@@ -10,8 +10,12 @@
     <h1 id="title" >Login</h1>
     <p id="description" > Please log in to your account </p>
     <form action="" id="survey-form" >
-      <input id="email" type="email" required >
-      <input type="number" id="number" required>
+      <label id="name-label">name</label>
+      <input type="text" id="name" placeholder="write your name">
+      <label id="email-label">email</label>
+      <input id="email" type="email" required placeholder="write your e-mail">
+      <label id="number-label">number</label>
+      <input type="number" id="number" required minlength="4" maxlength="7" placeholder="write your number">
       <input type="submit">
     </form>
 
